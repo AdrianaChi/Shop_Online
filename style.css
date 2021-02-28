@@ -343,7 +343,7 @@ body {
 
 .my-story {
   text-align: center;
-  font-size: 1em;
+  font-size: 1.2em;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   line-height: 28px;
@@ -407,6 +407,7 @@ body {
     padding: 0;
   }
   .my-story {
-    width: 100%;
+    display: inline-block;
+    align-items: center;
   }
 }
