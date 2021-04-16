@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Black Pearl Headband</title>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
 </head>
 <body>
     <header id="main-header">
@@ -31,12 +33,27 @@
     </nav>  
 
 
-    <img src="/images/coronita1.jpg" width="200" height="240">
-    <img src="/images/coronita2.jpg" width="200" height="240">
-    <img src="/images/coronita3.jpg" width="200" height="240">
+    <div class="slider">
+      <div class="slides">
+        <div class="slide">
+           <img src="/images/coronita1.jpg" width="" height="440">
+        </div>
+        <div class="slide">
+           <img src="/images/coronita2.jpg" width="" height="440">
+        </div>
+        <div class="slide">
+           <img src="/images/coronita3.jpg" width="" height="440">
+        </div>
+
+
+      </div>
+      <div onclick = "goLeft()" class="left-btn fas fa-chevron-left"></div>
+      <div onclick = "goRight()" class="right-btn fas fa-chevron-right"></div>
+    </div>
+
 
     <div class="info"> 
-        <p>Tag me on instagram <strong>@shopmycloset_ac</strong> for a chance to be featured on my page!</p>
+        <p>Tag me on instagram <strong>@oneofakind.ac</strong> for a chance to be featured on my page!</p>
        </div>
     
       <footer id="main-footer">  
@@ -52,16 +69,12 @@
   
             <ul class="social">
               <li><a href="#"><img src="images/facebook.jpg" alt=""> </a></li>
-              <li><a href="https://www.instagram.com/shopmycloset_ac/" target="_blank"><img src="images/instagram.jpg" alt="Instagram"> </a></li>
+              <li><a href="https://www.instagram.com/oneofakind.ac/" target="_blank"><img src="images/instagram.jpg" alt="Instagram"> </a></li>
             </ul>
   
           <p>Copyright &copy; 2020, One of a Kind </p>  
         </footer> 
   
-  
-  
-  
-
     <script src="main.js"></script>
 </body>
 </html>

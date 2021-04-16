@@ -9,8 +9,3 @@ for(let i = 0;i< menuLenght;i++)
 };
 
 
-
-
-
-
-
